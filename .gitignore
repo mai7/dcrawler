@@ -1,0 +1,8 @@
+.DS_Store
+#inteljidea configure file
+.idea/
+*.iml
+target/
+*.class
+*.*~
+
