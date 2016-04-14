@@ -12,14 +12,25 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <junit.version>4.11</junit.version>
+        <grizzly.version>2.3.22</grizzly.version>
+    </properties>
+
     <dependencyManagement>
     <dependencies>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.grizzly</groupId>
+            <artifactId>grizzly-http-server</artifactId>
+            <version>${grizzly.version}</version>
         </dependency>
     </dependencies>
 

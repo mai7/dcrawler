@@ -23,6 +23,13 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+
+
+            <dependency>
+                <groupId>org.glassfish.grizzly</groupId>
+                <artifactId>grizzly-http-server</artifactId>
+            </dependency>
+
     </dependencies>
 
 
